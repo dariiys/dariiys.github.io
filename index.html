@@ -112,6 +112,18 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+      var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+    el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+});
     </script>
     <script src="/j-s/sript.js"></script>
   </body>
